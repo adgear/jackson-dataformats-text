@@ -49,9 +49,6 @@
     <url>https://github.com/FasterXML/jackson-dataformats-text/issues</url>
   </issueManagement>
 
-  <properties>
-  </properties>
-
   <dependencies>
     <!-- all dataformats extend core so just include here -->
     <dependency>
