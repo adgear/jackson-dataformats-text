@@ -19,6 +19,12 @@
     <module>yaml</module>
   </modules>
 
+  <properties>
+    <releaseRepoUrl>${adgearReleasePublishUrl}</releaseRepoUrl>
+    <snapshotRepoUrl>${adgearSnapshotPublishUrl}</snapshotRepoUrl>
+    <deployRepoUrl>${releaseRepoUrl}</deployRepoUrl>
+  </properties>
+
   <distributionManagement>
     <snapshotRepository>
       <id>adgear-snapshots-repository</id>
